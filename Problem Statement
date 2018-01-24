@@ -1,0 +1,8 @@
+Part 2 :
+ 
+Give a button to extract the contact list of the user from the phone. 
+Ask for "runtime permissions" for contact list access.
+Create a CSV format from the contact list. Do this task in the background using rxjava "observable"
+Zip the CSV and save it in the storage of the user.
+When the zip of the CSV is completed and saved (all of this happens in background) 
+- show a "snackbar" to the user informing him that operation has completed.
